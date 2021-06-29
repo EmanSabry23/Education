@@ -1,0 +1,91 @@
+.header .text-box{
+    margin-top: 20%;
+    margin-left: 30px;
+    position: relative;
+}
+.header .text-box h2{
+    color: var(--subColor);
+    font-size: 42px;
+    line-height: 1.3;
+}
+.header .text-box p{
+    color: #777;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.header .text-box a{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 12px;
+    color: var(--mainColor) !important;
+}
+.header .text-box a svg{
+    background-color: var(--subColor);
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    color: #fff;
+}
+.header .image{
+    position: relative;
+}
+.header .text-box .before{
+    position: absolute;
+    top: 0;
+    left: -120px;
+    transform: rotate(-90deg);
+    font-size: 30px;
+    color: #ccc;
+}
+.header .text-box .before::before{
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -56px;
+    width: 3px;
+    height: 70px;
+    background-color: #ccc;
+    transform: rotate(
+90deg
+);
+}
+.header .text-box .after{
+    position: absolute;
+    bottom: 0;
+    left: -132px;
+    transform: rotate(-90deg);
+    font-size: 30px;
+    color: #ccc;
+}
+.header .text-box .after a {
+    border: 0;
+    margin: 0;
+    padding: 5px;
+}
+.header .text-box .after a svg{
+    border: 1px solid #ccc;
+    width: 40px;
+    background-color: transparent;
+    height: 40px;
+    padding: 5px;
+    color: var(--mainColor);
+}
+.header .image .befor{
+    position: absolute;
+    /* top: -185px; */
+    top: -60px;
+    right: -142px;
+    width: 140%;
+    height: 100%;
+    z-index: -1;
+}
+.header .image .ill{
+    margin: auto;
+    display: block;
+    width: 700px;
+    height: 600px;
+}

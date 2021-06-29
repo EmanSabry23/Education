@@ -1,0 +1,94 @@
+.footer{
+    margin: 10% 0 0;
+    background-color: var(--mainColor);
+    padding: 60px 0;
+}
+.footer .div-img{
+    position: relative;
+    background-color: var(--subColor);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 150px;
+    margin: auto;
+    filter: drop-shadow(2px 4px 13px #f47f01);
+}
+.footer .div-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -53px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #05457082;
+    box-shadow: 0px 0px 8px 0px #888;
+}
+.footer .div-img::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -53px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f47f0185;
+    box-shadow: 0px 0px 8px 0px #888;
+}
+.footer .div-img p{
+    color: #fff;
+    font-size: 27px;
+    padding: 0px 20px;
+}
+.footer .box-text .child{
+    display: flex;
+}
+.footer .box-text .child span{
+    width: 5%;
+    color: #fff;
+    background-color: var(--subColor);
+    margin-right: 10px;
+    text-align: center;
+    height: 5%;
+    border-radius: 50px;
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px var(--subColor);
+}
+.footer .box-text .child .picec{
+    width: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer .box-text .child .picec h3{
+    color: #fff;
+}
+.footer .box-text .child .picec p{
+    color: #ccc;
+    font-size: 14px;
+}
+.footer form{
+    position: relative;
+}
+.footer form input{
+    width: 60%;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    border: 0;
+    padding-left: 30px;
+    color: #ccc;
+    margin-top: 25px;
+}
+.footer form button{
+    position: absolute;
+    top: 30px;
+    right: 41%;
+    border: 0;
+    background-color: var(--subColor);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    height: 40px;
+}

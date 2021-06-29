@@ -1,0 +1,41 @@
+.subscribe{
+    margin: 5% 0;
+}
+.subscribe .box{
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #ccc;
+    border-radius: 50px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+.subscribe .box .ab{
+    position: absolute;
+    top: -121px;
+    left: 0;
+}
+.subscribe .box .ab img{
+    width: 400px;
+}
+.subscribe .box p{
+    font-size: 17px;
+    display: inline-block;
+    max-width: 540px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.subscribe .box a{
+    float: right;
+    background-color: var(--subColor);
+    color: #fff !important;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 17px;
+    margin-top: -4px;
+    box-shadow: 0px 0px 8px 0px var(--subColor);
+}

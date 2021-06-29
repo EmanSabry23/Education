@@ -1,0 +1,62 @@
+.services h2{
+    text-align: center;
+    font-size: 45px;
+    color: var(--subColor);
+    font-weight: bold;
+    margin-bottom: 130px;
+}
+.services .parent{
+    /* background-color: rgb(219, 202, 202); */
+    /* box-shadow: 0px 0px 4px 0px #ccc; */
+    border-radius: 10px;
+    padding: 60px;
+    /* width: 900px; */
+    margin: auto;
+    position: relative;
+}
+.services .parent::before{
+    content: url(./images/services2.png);
+    position: absolute;
+    top: -85px;
+    right: 42%;
+    z-index: 2;
+}
+.services .parent::after{
+    content: url(./images/2.png);
+    position: absolute;
+    top: -445px;
+    left: -302px;
+    z-index: -1;
+    opacity: .4;
+}
+.services .parent .box{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.services .parent .box svg{
+    width: 18%;
+    background-color: var(--mainColor);
+    color: #fff;
+    height: 47px;
+    padding: 12px;
+    border-radius: 50%;
+    /* border: 2px solid #ccc; */
+    /* box-shadow: 0px 0px 4px 0px var(--subColor); */
+    margin-right: 34px;
+}
+.services .parent .box .text{
+    display: inline-block;
+    width: 60%;
+}
+.services .parent .box .text h3{
+    color: var(--mainColor);
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.services .parent .box .text p{
+    color: #777;
+    font-size: 15px;
+}

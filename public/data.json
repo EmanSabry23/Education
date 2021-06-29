@@ -1,0 +1,43 @@
+{
+
+    "portfolio" : [
+        {
+            "id" : 1,
+            "image" : "./images/2.jpg",
+            "textH3" : "Portfolio 1",
+            "textP" : "The automated process all your website tasks. Discover tools and techniques to engage (1).",
+            "linkA" : "More"
+        },
+        {
+            "id" : 2,
+            "image" : "./images/3.jpg",
+            "textH3" : "Portfolio 2",
+            "textP" : "The automated process all your website tasks. Discover tools and techniques to engage (2).",
+            "linkA" : "More"
+        },
+        {
+            "id" : 3,
+            "image" : "./images/5.jpg",
+            "textH3" : "Portfolio 3",
+            "textP" : "The automated process all your website tasks. Discover tools and techniques to engage (3).",
+            "linkA" : "More"
+        }
+    ], 
+
+    "about": 
+
+       [
+        {
+            "id" : 1,
+            "title" : "About Us",
+            "imageAb" : "./images/2.png",
+            "imageBe" : "./images/2.png",
+            "titleH3" : "Hover State Styling",
+            "pargraph" : "Using hover options, you can create stunning hover effects and transform Divi modules into fun and interactive elements. Our hover option interface is unique and amazingly easy to use. Every design setting in Divi that supports transitions can now be customized on hover with ease",
+            "link" : "Learn More",
+            "imageAbout" : "./images/about.webp"
+        }
+
+       ]
+
+}

@@ -1,0 +1,105 @@
+.testimonials{
+    margin: 10% 0;
+    padding: 30px 0;
+    background-color: #05457008;
+}
+.testimonials h2{
+    text-align: center;
+    font-size: 45px;
+    color: var(--subColor);
+    font-weight: bold;
+}
+.testimonials .img-test{
+    position: relative;
+}
+.testimonials .img-test::before{
+    content: url(../styles/images/blob-testimonials.svg);
+    position: absolute;
+    top: 27px;
+    left: -139px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .2;
+}
+.testimonials .img-test span{
+    position: absolute;
+    background-color: #05457040;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 34px;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 0px 0px 18px 0px #054570c7;
+}
+.testimonials .img-test .one{
+    left: 61%;
+    top: 45%;
+}
+.testimonials .img-test .two{
+    top: 10%;
+    left: 41%;
+}
+.testimonials .img-test .three{
+    left: 49%;
+    bottom: -17px;
+    padding-top: 15px;
+}
+.testimonials .text-box{
+    margin-top: 20%;
+    position: relative;
+}
+.testimonials .text-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 3px;
+    height: 150px;
+    background-color: var(--subColor);
+}
+.testimonials .text-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 3px;
+    height: 150px;
+    background-color: var(--subColor);
+}
+.testimonials .text-box:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+    width: 3px;
+    height: 150px;
+    background-color: var(--subColor);
+}
+.testimonials .text-box h3{
+    color: var(--subColor);
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.testimonials .text-box h3:before {
+    content: '';
+    position: absolute;
+    top: 156px;
+    left: -82px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: var(--subColor);
+}
+.testimonials .text-box p{
+    color: #777;
+    line-height: 1.6;
+    font-size: 17px;
+    padding-right: 85px;
+
+} 
